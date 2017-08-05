@@ -1,6 +1,6 @@
 {
     "name": "jymusic/filedownloader",
-    "description": "PHP filed ownloader",
+    "description": "PHP file downloader",
     "type": "library",
     "keywords": ["jymusic", "filedownloader", "file", "filedownloader"],
     "homepage": "https://github.com/jymusic/filedownloader",
@@ -13,14 +13,12 @@
         }
     ],
     "require": {
-        "php": ">=5.4"
-    },
-    "require": {
-        "simpletest/simpletest": "^1.1"
+        "php": ">=5.4",
+		"skyzyx/mimetypes": "~1.1"
     },
     "autoload": {
         "psr-4": {
-            "JYmusic\\FileDownloader\\": "src"
+            "JYmusic\\Downloader\\": "src"
         }
     }
 }
