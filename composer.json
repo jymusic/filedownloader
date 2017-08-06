@@ -5,16 +5,14 @@
     "keywords": ["jymusic", "filedownloader", "file", "filedownloader"],
     "homepage": "https://github.com/jymusic/filedownloader",
     "license": "LGPL",
-    "authors": [
-        {
-            "name": "jymusic",
-            "email": "zhangcb1984@163.com",
-            "homepage": "http://jyuu.cn"
-        }
-    ],
+    "authors": [{
+        "name": "jymusic",
+        "email": "zhangcb1984@163.com",
+        "homepage": "http://jyuu.cn"
+    }],
     "require": {
         "php": ">=5.4",
-		"skyzyx/mimetypes": "~1.1"
+        "skyzyx/mimetypes": "~1.1"
     },
     "autoload": {
         "psr-4": {
